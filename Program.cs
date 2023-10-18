@@ -1,15 +1,22 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-Personaje prototipo = new Personaje("Héroe", "Mago");
+Personaje jugador = new Personaje("Héroe", "Mago");
 
-// Clonar el personaje prototipo
-Personaje clon = (Personaje)prototipo.Clonar();
+Personaje enemigo = (Personaje)jugador.Clonar();
 
-clon.Nombre = "Enemigo";
-clon.Tipo = "Mago oscuro";
+enemigo.Nombre = "Enemigo";
+enemigo.Tipo = "Mago oscuro";
+
+Personaje aliado = (Personaje)jugador.Clonar();
+
+aliado.Nombre = "Aliado";
+aliado.Tipo = "Hechicero";
 
 Console.WriteLine("Personaje Original:");
-prototipo.Imprimir();
+jugador.Imprimir();
 
-Console.WriteLine("\nPersonaje Clonado:");
-clon.Imprimir();
+Console.WriteLine("\nPersonaje Clonado en enemigo:");
+enemigo.Imprimir();
+
+Console.WriteLine("\nPersonaje Clonado en aliado:");
+enemigo.Imprimir();
