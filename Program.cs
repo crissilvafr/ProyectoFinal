@@ -1,22 +1,24 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Welcome to this Fantasy World!");
+
 Personaje jugador = new Personaje("Héroe", "Caballero");
 
-Personaje enemigo = (Personaje)jugador.Clonar();
+Personaje mago = (Personaje)jugador.Clonar();
 
-enemigo.Nombre = "Enemigo";
-enemigo.Tipo = "Mago oscuro";
+mago.Nombre = "Hechicero";
+mago.Tipo = "Mago oscuro";
 
-Personaje aliado = (Personaje)jugador.Clonar();
+Personaje explorador = (Personaje)jugador.Clonar();
 
-aliado.Nombre = "Aliado";
-aliado.Tipo = "Arquero";
+explorador.Nombre = "Explorador";
+explorador.Tipo = "Arquero";
 
 Console.WriteLine("Personaje Original:");
-jugador.Imprimir();
+jugador.MostrarInfo();
 
 Console.WriteLine("\nPersonaje Clonado en enemigo:");
-enemigo.Imprimir();
+mago.MostrarInfo();
 
 Console.WriteLine("\nPersonaje Clonado en aliado:");
-enemigo.Imprimir();
+mago.MostrarInfo();
+
