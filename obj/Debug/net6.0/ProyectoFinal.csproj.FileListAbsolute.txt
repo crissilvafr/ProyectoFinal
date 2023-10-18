@@ -1,0 +1,15 @@
+/home/crissilvafr/ProyectoFinal/bin/Debug/net6.0/ProyectoFinal
+/home/crissilvafr/ProyectoFinal/bin/Debug/net6.0/ProyectoFinal.deps.json
+/home/crissilvafr/ProyectoFinal/bin/Debug/net6.0/ProyectoFinal.runtimeconfig.json
+/home/crissilvafr/ProyectoFinal/bin/Debug/net6.0/ProyectoFinal.dll
+/home/crissilvafr/ProyectoFinal/bin/Debug/net6.0/ProyectoFinal.pdb
+/home/crissilvafr/ProyectoFinal/obj/Debug/net6.0/ProyectoFinal.csproj.AssemblyReference.cache
+/home/crissilvafr/ProyectoFinal/obj/Debug/net6.0/ProyectoFinal.GeneratedMSBuildEditorConfig.editorconfig
+/home/crissilvafr/ProyectoFinal/obj/Debug/net6.0/ProyectoFinal.AssemblyInfoInputs.cache
+/home/crissilvafr/ProyectoFinal/obj/Debug/net6.0/ProyectoFinal.AssemblyInfo.cs
+/home/crissilvafr/ProyectoFinal/obj/Debug/net6.0/ProyectoFinal.csproj.CoreCompileInputs.cache
+/home/crissilvafr/ProyectoFinal/obj/Debug/net6.0/ProyectoFinal.dll
+/home/crissilvafr/ProyectoFinal/obj/Debug/net6.0/refint/ProyectoFinal.dll
+/home/crissilvafr/ProyectoFinal/obj/Debug/net6.0/ProyectoFinal.pdb
+/home/crissilvafr/ProyectoFinal/obj/Debug/net6.0/ProyectoFinal.genruntimeconfig.cache
+/home/crissilvafr/ProyectoFinal/obj/Debug/net6.0/ref/ProyectoFinal.dll
