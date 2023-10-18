@@ -1,4 +1,4 @@
-public class Personaje : IPrototipo
+public class Personaje : IPersonajePrototipo
 {
     public string Nombre { get; set; }
     public string Tipo { get; set; }
@@ -14,7 +14,7 @@ public class Personaje : IPrototipo
         Console.WriteLine($"Nombre: {Nombre} \t Tipo: {Tipo}");
     }
 
-    public IPrototipo Clonar()
+    public IPersonajePrototipo Clonar()
     {
         return new Personaje(Nombre, Tipo);
     }

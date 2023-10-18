@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-Personaje jugador = new Personaje("Héroe", "Mago");
+Personaje jugador = new Personaje("Héroe", "Caballero");
 
 Personaje enemigo = (Personaje)jugador.Clonar();
 
@@ -10,7 +10,7 @@ enemigo.Tipo = "Mago oscuro";
 Personaje aliado = (Personaje)jugador.Clonar();
 
 aliado.Nombre = "Aliado";
-aliado.Tipo = "Hechicero";
+aliado.Tipo = "Arquero";
 
 Console.WriteLine("Personaje Original:");
 jugador.Imprimir();

@@ -1,7 +1,7 @@
 using System;
 
-public interface IPrototipo
+public interface IPersonajePrototipo
 {
-    IPrototipo Clonar();
+    IPersonajePrototipo Clonar();
     void Imprimir();
 }
